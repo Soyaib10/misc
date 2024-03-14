@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 21,
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "Operator Mono",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "afterDelay",
+}
