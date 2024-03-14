@@ -1,0 +1,59 @@
+# template
+
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+#define ll long long int
+using namespace std;
+
+void solve() {
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++) cin >> v[i];
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL); cout.tie(NULL);
+
+    int t;
+    cin >> t;
+    while (t--) solve();
+    return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>normal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
+
+
+# preference
+
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "Consolas",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "One Dark.sublime-theme",
+	"color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+	"line_padding_top": 7,
+	"line_padding_bottom": 7,
+	"index_files": true,
+	"wrap_width_style": "min",
+}
+
+# build c++17
+
+{
+"cmd" : ["g++ -std=c++17 $file_name -o $file_base_name && timeout 4s ./$file_base_name<input.txt>output.txt"], 
+"selector" : "source.cpp",
+"shell": true,
+"working_dir" : "$file_path"
+}
