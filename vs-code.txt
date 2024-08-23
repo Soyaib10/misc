@@ -1,21 +1,44 @@
 {
-  "workbench.colorTheme": "One Dark Pro Flat",
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontSize": 21,
+  "editor.fontSize": 19,
   "editor.fontWeight": "normal",
   "editor.lineHeight": 1.8,
-  "editor.fontFamily": "Operator Mono",
+  "editor.fontFamily": "Consolas",
   "editor.cursorBlinking": "expand",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 17,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "files.associations": {
     "*.tmpl": "html"
-  }
+  },
+  "explorer.confirmDelete": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.lineHeight": 1.5,
+  "files.autoSave": "afterDelay",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Flat",
+  "workbench.colorTheme": "One Dark Pro",
+
+
+"workbench.colorCustomizations": {
+  "editor.background": "#1d232b",                 // Editor background color
+  "activityBar.background": "#1d232b",            // Activity bar background color
+  "sideBar.background": "#1d232b",                // Sidebar background color
+  "titleBar.activeBackground": "#1d232b",         // Title bar background color
+  "statusBar.background": "#1d232b",              // Status bar background color
+  "tab.inactiveBackground": "#1f252d",            // Inactive tab background color
+  "tab.activeBackground": "#1d232b",              // Active tab background color
+  "editorGroupHeader.tabsBackground": "#1d232b",  // Background color for the tab headers
+  "terminal.background": "#1d232b",               // Terminal background color
+  "panel.background": "#1d232b",                  // Background color for panels like the output, terminal, etc.
+  "editor.lineHighlightBackground": "#242a33",    // Current line highlighter color
+  "sideBarSectionHeader.background": "#1d232b",   // Outline header background color
+  "sideBarTitle.foreground": "#1d232b",           // Sidebar title color (like Timeline and GO)
 }
 
+}
