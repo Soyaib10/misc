@@ -7,7 +7,7 @@
   "editor.lineHeight": 1.8,
   "editor.fontFamily": "Consolas",
   "editor.cursorBlinking": "expand",
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 15,
   "editor.formatOnSave": true,
   "files.associations": {
     "*.tmpl": "html"
@@ -23,22 +23,21 @@
   "oneDarkPro.vivid": true,
   "oneDarkPro.editorTheme": "One Dark Pro Flat",
   "workbench.colorTheme": "One Dark Pro",
-
-
-"workbench.colorCustomizations": {
-  "editor.background": "#1d232b",                 // Editor background color
-  "activityBar.background": "#1d232b",            // Activity bar background color
-  "sideBar.background": "#1d232b",                // Sidebar background color
-  "titleBar.activeBackground": "#1d232b",         // Title bar background color
-  "statusBar.background": "#1d232b",              // Status bar background color
-  "tab.inactiveBackground": "#1f252d",            // Inactive tab background color
-  "tab.activeBackground": "#1d232b",              // Active tab background color
-  "editorGroupHeader.tabsBackground": "#1d232b",  // Background color for the tab headers
-  "terminal.background": "#1d232b",               // Terminal background color
-  "panel.background": "#1d232b",                  // Background color for panels like the output, terminal, etc.
-  "editor.lineHighlightBackground": "#242a33",    // Current line highlighter color
-  "sideBarSectionHeader.background": "#1d232b",   // Outline header background color
-  "sideBarTitle.foreground": "#1d232b",           // Sidebar title color (like Timeline and GO)
-}
-
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#1d232b", // Editor background color
+    "activityBar.background": "#1d232b", // Activity bar background color
+    "sideBar.background": "#1d232b", // Sidebar background color
+    "titleBar.activeBackground": "#1d232b", // Title bar background color
+    "statusBar.background": "#1d232b", // Status bar background color
+    "tab.inactiveBackground": "#1f252d", // Inactive tab background color
+    "tab.activeBackground": "#16233d", // Active tab background color
+    "editorGroupHeader.tabsBackground": "#1d232b", // Background color for the tab headers
+    "terminal.background": "#1d232b", // Terminal background color
+    "panel.background": "#1d232b", // Background color for panels like the output, terminal, etc.
+    "editor.lineHighlightBackground": "#242a33", // Current line highlighter color
+    "sideBarSectionHeader.background": "#1d232b", // Outline header background color
+    "sideBarTitle.foreground": "#1d232b", // Sidebar title color (like Timeline and GO)
+  },
+  "explorer.confirmPasteNative": false,
 }
